@@ -29,7 +29,7 @@ cd expressproject
 Example API Request
 
 POST /echo
-curl -X POST http://localhost:3000/echo \
+curl -X POST http://localhost:3000/contact \
   -H "Content-Type: application/json" \
   -d '{"name":"Jerusalem","role":"Student"}'
 Response:
