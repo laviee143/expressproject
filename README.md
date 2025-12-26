@@ -8,10 +8,9 @@ A simple **Express.js** backend project structured with the **MVC (Model-View-Co
 
 - MVC architecture: Separation of concerns with Models, Views, and Controllers.
 - JSON-based API endpoints.
-- Example `/echo` POST endpoint to test request handling.
+- Example `/contafct` POST endpoint to test request handling.
 - Easy to extend with new routes, controllers, and models.
 
----
 
 ## Installation
 
@@ -31,7 +30,7 @@ Example API Request
 POST /echo
 curl -X POST http://localhost:3000/contact \
   -H "Content-Type: application/json" \
-  -d '{"name":"Jerusalem","role":"Student"}'
+  -d '{"name":"Jerusalem","phone number":+251978642454""}'
 Response:
 {
   "received": {
